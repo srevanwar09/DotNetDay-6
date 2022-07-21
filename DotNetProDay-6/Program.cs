@@ -1,41 +1,59 @@
-﻿static Boolean isPresent(int[] arr, int num) 
+﻿using System;
+using System.Diagnostics;
+
+Stopwatch timer = new Stopwatch(); 
+static Boolean startStopwatch(Stopwatch timer) 
 {
-    for (int i = 0; i < arr.Length; i++) 
+    Console.WriteLine("Enter 1 to start the stopwatch:");
+    int startOption = int.Parse(Console.ReadLine());
+    if (startOption == 1) 
     {
-        if (arr[i] == num) 
-        {
-            return true;
-        }
+        timer.Start();
+        return true;
     }
-    return false;
-}
-static void generateCouponCode(int totalNum)
-{
-    int[] couponCode = new int[totalNum];
-    int randomNo = 0, count=0;
-    Boolean check;
-    Random random = new Random();
-    for (int i = 0; i < couponCode.Length; i++)
+    else
     {
-        randomNo = random.Next(1000, 10000);
-        count++;
-        check = isPresent(couponCode, randomNo);
-        if (check != true) 
+        return false;
+    }
+
+}
+static Boolean stopStopwatch(Stopwatch timer)
+{
+    Console.WriteLine("Enter 2 to stop the stopwatch:");
+    int startOption = int.Parse(Console.ReadLine());
+    if (startOption == 2) 
+    {
+        timer.Stop();
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+
+}
+static void elapsedTime(Stopwatch timer) 
+{
+    Boolean start = startStopwatch(timer); 
+    if (start) 
+    {
+        Console.WriteLine("Timer started");
+        Boolean stop = stopStopwatch(timer);
+        if (stop)
         {
-            couponCode[i] = randomNo;
+            Console.WriteLine("Timer stopped");
+            Console.WriteLine("The Elapsed time is " + timer.Elapsed);
         }
         else
         {
-            --i;
+            Console.WriteLine("Wrong input... Timer didn't stop");
         }
     }
-    Console.WriteLine("The unique coupon numbers are :");
-    for (int i = 0; i < couponCode.Length; i++)
+    else
     {
-        Console.WriteLine(couponCode[i] + " ");
+        Console.WriteLine("Wrong input... Timer didn't start");
     }
-    Console.WriteLine("Total random number needed to have all distinct numbers are : "+count);
+
+
 }
-Console.Write("Enter the number of coupon codes to be generated : ");
-int totalNum = int.Parse(Console.ReadLine());
-generateCouponCode(totalNum);
+elapsedTime(timer);
