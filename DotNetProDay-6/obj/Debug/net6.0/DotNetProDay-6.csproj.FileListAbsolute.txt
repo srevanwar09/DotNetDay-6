@@ -1,0 +1,15 @@
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\bin\Debug\net6.0\DotNetProDay-6.exe
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\bin\Debug\net6.0\DotNetProDay-6.deps.json
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\bin\Debug\net6.0\DotNetProDay-6.runtimeconfig.json
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\bin\Debug\net6.0\DotNetProDay-6.dll
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\bin\Debug\net6.0\DotNetProDay-6.pdb
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\obj\Debug\net6.0\DotNetProDay-6.csproj.AssemblyReference.cache
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\obj\Debug\net6.0\DotNetProDay-6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\obj\Debug\net6.0\DotNetProDay-6.AssemblyInfoInputs.cache
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\obj\Debug\net6.0\DotNetProDay-6.AssemblyInfo.cs
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\obj\Debug\net6.0\DotNetProDay-6.csproj.CoreCompileInputs.cache
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\obj\Debug\net6.0\DotNetProDay-6.dll
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\obj\Debug\net6.0\refint\DotNetProDay-6.dll
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\obj\Debug\net6.0\DotNetProDay-6.pdb
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\obj\Debug\net6.0\DotNetProDay-6.genruntimeconfig.cache
+C:\Users\shri2\source\repos\DotNetAssiDay-6\DotNetProDay-6\obj\Debug\net6.0\ref\DotNetProDay-6.dll
