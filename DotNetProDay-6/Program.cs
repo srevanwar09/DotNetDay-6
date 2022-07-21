@@ -1,18 +1,19 @@
 ﻿Console.Write("Enter the number: ");
-int num = int.Parse(Console.ReadLine()); 
-int total = 0;
-for (int i = 1; i < num; i++)
+int num = int.Parse(Console.ReadLine()); // we are taking the input from user of which we have to check if prime or not
+int ans, count = 0;
+for (int i = 2; i <= num / 2; i++)
 {
-    if (num % i == 0) 
+    ans = num % i; // remainder is calculated 
+    if (ans == 0) // check whether remainder is 0 or not if yes then increament the count value else conditnue the loop
     {
-        total += i; 
+        count++;
     }
 }
-if (num == total) 
+if (count == 0) // if count value is 0 then the number is a prime number
 {
-    Console.WriteLine("Entered number is a Perfect number.");
+    Console.WriteLine(num + " is a Prime Number");
 }
 else
 {
-    Console.WriteLine("Entered number is not a Perfect number.");
+    Console.WriteLine(num + " is not a Prime Number");
 }
